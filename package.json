@@ -1,0 +1,29 @@
+{
+  "name": "faide",
+  "version": "0.1.0",
+  "description": "The IDE for FAI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Unlocked",
+  "license": "GNU-GPLv3.0",
+  "dependencies": {
+    "path": "^0.12.7",
+    "codemirror": "^5.35.0",
+    "katex": "^0.9.0",
+    "mathjax-electron": "^2.0.1",
+    "electron-edge-js": "^8.3.2"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}

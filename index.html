@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CodeMirror/codemirror.css">
+    <link rel="stylesheet" href="./CodeMirror/base16-light.css">
+    <link rel="stylesheet" href="./CodeMirror/simplescrollbars.css">
+    <link rel="stylesheet" href="./katex.min.css">
+    <link rel="stylesheet" href="./general.css">
+
+    <title>FAIDE 0.1</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <h1>FAI Code:</h1>
+        <div id="fai-editor"></div>
+      </div>
+      <div class="column">
+        <h1>TeX Form:</h1>
+        <div id="tex-result" style="padding-left: 3px; overflow: auto; height:300px;"></div>
+      </div>
+    </div>
+    <input type="button" id="fai-execute" value="Execute"/>
+    <div id="result-box"></div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js');
+    </script>
+  </body>
+</html>

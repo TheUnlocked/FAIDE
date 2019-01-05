@@ -1,0 +1,17 @@
+{
+    "name": "texifai",
+    "author": "Unlocked",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "types": "./main.d.ts",
+    "dependencies": {
+        "@types/node": "^9.4.7",
+        "antlr4ts": "^0.4.1-alpha.0"
+    },
+    "devDependencies": {
+        "antlr4ts-cli": "^0.4.0-alpha.4"
+    },
+    "scripts": {
+        "antlr4ts": "antlr4ts -visitor grammar/FAILang.g4"
+    }
+}
